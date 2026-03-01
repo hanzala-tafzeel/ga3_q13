@@ -1,0 +1,8 @@
+{
+  "name": "playwright-qa",
+  "version": "1.0.0",
+  "main": "scrape.js",
+  "dependencies": {
+    "playwright": "latest"
+  }
+}
