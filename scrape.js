@@ -4,7 +4,7 @@ const { chromium } = require('playwright');
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  const seeds = [79,80,81,82,83,84,85,86,87,88];
+  const seeds = [42,43,44,45,46,47,48,49,50,51];
   let grandTotal = 0;
 
   for (let seed of seeds) {
@@ -30,4 +30,5 @@ const { chromium } = require('playwright');
   console.log("FINAL TOTAL =", grandTotal);
 
   await browser.close();
+
 })();
